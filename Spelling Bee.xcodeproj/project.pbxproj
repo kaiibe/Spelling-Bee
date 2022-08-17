@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363C5BB623B098B700E11795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363C5BB523B098B700E11795 /* Main.storyboard */; };
+		366DDB7423AB44D9004828BC /* WordsLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DDB7323AB44D9004828BC /* WordsLevelViewController.swift */; };
+		366DDB7E23AD2CD0004828BC /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DDB7D23AD2CD0004828BC /* WordsTableViewController.swift */; };
+		366DDB8023AD3638004828BC /* Word_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366DDB7F23AD3638004828BC /* Word_ViewController.swift */; };
+		36716FA123AA0A560013A28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36716FA023AA0A560013A28C /* AppDelegate.swift */; };
+		36716FA323AA0A560013A28C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36716FA223AA0A560013A28C /* ViewController.swift */; };
+		36716FAB23AA0A570013A28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36716FA923AA0A570013A28C /* LaunchScreen.storyboard */; };
+		36716FB623AA0A570013A28C /* Spelling_BeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36716FB523AA0A570013A28C /* Spelling_BeeTests.swift */; };
+		36716FC123AA0A570013A28C /* Spelling_BeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36716FC023AA0A570013A28C /* Spelling_BeeUITests.swift */; };
+		3673FA8E23AFB7F60014C097 /* TestLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673FA8D23AFB7F60014C097 /* TestLevelViewController.swift */; };
+		3673FA9023AFB8130014C097 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673FA8F23AFB8130014C097 /* TestViewController.swift */; };
+		3673FA9223AFC5410014C097 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3673FA9123AFC5410014C097 /* ResultsViewController.swift */; };
+		36F8FA6F23B4A4C3007942C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F8FA6E23B4A4C3007942C1 /* Assets.xcassets */; };
+		36F8FA7123B4AA73007942C1 /* launchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36F8FA7023B4AA73007942C1 /* launchScreen.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36716FB223AA0A570013A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36716F9523AA0A560013A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36716F9C23AA0A560013A28C;
+			remoteInfo = "Spelling Bee";
+		};
+		36716FBD23AA0A570013A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36716F9523AA0A560013A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36716F9C23AA0A560013A28C;
+			remoteInfo = "Spelling Bee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363C5BB523B098B700E11795 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		366DDB7323AB44D9004828BC /* WordsLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WordsLevelViewController.swift; path = "Spelling Bee/Words/WordsLevelViewController.swift"; sourceTree = SOURCE_ROOT; };
+		366DDB7D23AD2CD0004828BC /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		366DDB7F23AD3638004828BC /* Word_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word_ViewController.swift; sourceTree = "<group>"; };
+		36716F9D23AA0A560013A28C /* Spelling Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spelling Bee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36716FA023AA0A560013A28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36716FA223AA0A560013A28C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36716FAA23AA0A570013A28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36716FAC23AA0A570013A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36716FB123AA0A570013A28C /* Spelling BeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spelling BeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36716FB523AA0A570013A28C /* Spelling_BeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_BeeTests.swift; sourceTree = "<group>"; };
+		36716FB723AA0A570013A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36716FBC23AA0A570013A28C /* Spelling BeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spelling BeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36716FC023AA0A570013A28C /* Spelling_BeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_BeeUITests.swift; sourceTree = "<group>"; };
+		36716FC223AA0A570013A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3673FA8D23AFB7F60014C097 /* TestLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLevelViewController.swift; sourceTree = "<group>"; };
+		3673FA8F23AFB8130014C097 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3673FA9123AFC5410014C097 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		36F8FA6E23B4A4C3007942C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36F8FA7023B4AA73007942C1 /* launchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchScreen.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36716F9A23AA0A560013A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FAE23AA0A570013A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FB923AA0A570013A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3614442623AFABE200E6FAA5 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				366DDB7323AB44D9004828BC /* WordsLevelViewController.swift */,
+				366DDB7D23AD2CD0004828BC /* WordsTableViewController.swift */,
+				366DDB7F23AD3638004828BC /* Word_ViewController.swift */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		36716F9423AA0A560013A28C = {
+			isa = PBXGroup;
+			children = (
+				36716F9F23AA0A560013A28C /* Spelling Bee */,
+				36716FB423AA0A570013A28C /* Spelling BeeTests */,
+				36716FBF23AA0A570013A28C /* Spelling BeeUITests */,
+				36716F9E23AA0A560013A28C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36716F9E23AA0A560013A28C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36716F9D23AA0A560013A28C /* Spelling Bee.app */,
+				36716FB123AA0A570013A28C /* Spelling BeeTests.xctest */,
+				36716FBC23AA0A570013A28C /* Spelling BeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36716F9F23AA0A560013A28C /* Spelling Bee */ = {
+			isa = PBXGroup;
+			children = (
+				36716FA023AA0A560013A28C /* AppDelegate.swift */,
+				36716FA223AA0A560013A28C /* ViewController.swift */,
+				3614442623AFABE200E6FAA5 /* Words */,
+				3673FA8C23AFB7810014C097 /* Test */,
+				363C5BB523B098B700E11795 /* Main.storyboard */,
+				36716FA923AA0A570013A28C /* LaunchScreen.storyboard */,
+				36F8FA6E23B4A4C3007942C1 /* Assets.xcassets */,
+				36716FAC23AA0A570013A28C /* Info.plist */,
+			);
+			path = "Spelling Bee";
+			sourceTree = "<group>";
+		};
+		36716FB423AA0A570013A28C /* Spelling BeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F8FA7023B4AA73007942C1 /* launchScreen.jpg */,
+				36716FB523AA0A570013A28C /* Spelling_BeeTests.swift */,
+				36716FB723AA0A570013A28C /* Info.plist */,
+			);
+			path = "Spelling BeeTests";
+			sourceTree = "<group>";
+		};
+		36716FBF23AA0A570013A28C /* Spelling BeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36716FC023AA0A570013A28C /* Spelling_BeeUITests.swift */,
+				36716FC223AA0A570013A28C /* Info.plist */,
+			);
+			path = "Spelling BeeUITests";
+			sourceTree = "<group>";
+		};
+		3673FA8C23AFB7810014C097 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3673FA8D23AFB7F60014C097 /* TestLevelViewController.swift */,
+				3673FA8F23AFB8130014C097 /* TestViewController.swift */,
+				3673FA9123AFC5410014C097 /* ResultsViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36716F9C23AA0A560013A28C /* Spelling Bee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36716FC523AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling Bee" */;
+			buildPhases = (
+				36716F9923AA0A560013A28C /* Sources */,
+				36716F9A23AA0A560013A28C /* Frameworks */,
+				36716F9B23AA0A560013A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spelling Bee";
+			productName = "Spelling Bee";
+			productReference = 36716F9D23AA0A560013A28C /* Spelling Bee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36716FB023AA0A570013A28C /* Spelling BeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36716FC823AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling BeeTests" */;
+			buildPhases = (
+				36716FAD23AA0A570013A28C /* Sources */,
+				36716FAE23AA0A570013A28C /* Frameworks */,
+				36716FAF23AA0A570013A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36716FB323AA0A570013A28C /* PBXTargetDependency */,
+			);
+			name = "Spelling BeeTests";
+			productName = "Spelling BeeTests";
+			productReference = 36716FB123AA0A570013A28C /* Spelling BeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36716FBB23AA0A570013A28C /* Spelling BeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36716FCB23AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling BeeUITests" */;
+			buildPhases = (
+				36716FB823AA0A570013A28C /* Sources */,
+				36716FB923AA0A570013A28C /* Frameworks */,
+				36716FBA23AA0A570013A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36716FBE23AA0A570013A28C /* PBXTargetDependency */,
+			);
+			name = "Spelling BeeUITests";
+			productName = "Spelling BeeUITests";
+			productReference = 36716FBC23AA0A570013A28C /* Spelling BeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36716F9523AA0A560013A28C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Homidov Behzod";
+				TargetAttributes = {
+					36716F9C23AA0A560013A28C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					36716FB023AA0A570013A28C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 36716F9C23AA0A560013A28C;
+					};
+					36716FBB23AA0A570013A28C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 36716F9C23AA0A560013A28C;
+					};
+				};
+			};
+			buildConfigurationList = 36716F9823AA0A560013A28C /* Build configuration list for PBXProject "Spelling Bee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36716F9423AA0A560013A28C;
+			productRefGroup = 36716F9E23AA0A560013A28C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36716F9C23AA0A560013A28C /* Spelling Bee */,
+				36716FB023AA0A570013A28C /* Spelling BeeTests */,
+				36716FBB23AA0A570013A28C /* Spelling BeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36716F9B23AA0A560013A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363C5BB623B098B700E11795 /* Main.storyboard in Resources */,
+				36716FAB23AA0A570013A28C /* LaunchScreen.storyboard in Resources */,
+				36F8FA6F23B4A4C3007942C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FAF23AA0A570013A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F8FA7123B4AA73007942C1 /* launchScreen.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FBA23AA0A570013A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36716F9923AA0A560013A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36716FA323AA0A560013A28C /* ViewController.swift in Sources */,
+				36716FA123AA0A560013A28C /* AppDelegate.swift in Sources */,
+				3673FA9023AFB8130014C097 /* TestViewController.swift in Sources */,
+				366DDB8023AD3638004828BC /* Word_ViewController.swift in Sources */,
+				3673FA9223AFC5410014C097 /* ResultsViewController.swift in Sources */,
+				366DDB7423AB44D9004828BC /* WordsLevelViewController.swift in Sources */,
+				366DDB7E23AD2CD0004828BC /* WordsTableViewController.swift in Sources */,
+				3673FA8E23AFB7F60014C097 /* TestLevelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FAD23AA0A570013A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36716FB623AA0A570013A28C /* Spelling_BeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36716FB823AA0A570013A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36716FC123AA0A570013A28C /* Spelling_BeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36716FB323AA0A570013A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36716F9C23AA0A560013A28C /* Spelling Bee */;
+			targetProxy = 36716FB223AA0A570013A28C /* PBXContainerItemProxy */;
+		};
+		36716FBE23AA0A570013A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36716F9C23AA0A560013A28C /* Spelling Bee */;
+			targetProxy = 36716FBD23AA0A570013A28C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36716FA923AA0A570013A28C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36716FAA23AA0A570013A28C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36716FC323AA0A570013A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36716FC423AA0A570013A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36716FC623AA0A570013A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling Bee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		36716FC723AA0A570013A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling Bee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		36716FC923AA0A570013A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling BeeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-BeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelling Bee.app/Spelling Bee";
+			};
+			name = Debug;
+		};
+		36716FCA23AA0A570013A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling BeeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-BeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelling Bee.app/Spelling Bee";
+			};
+			name = Release;
+		};
+		36716FCC23AA0A570013A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling BeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-BeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spelling Bee";
+			};
+			name = Debug;
+		};
+		36716FCD23AA0A570013A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5TV2S8MD4;
+				INFOPLIST_FILE = "Spelling BeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaiibe.Spelling-BeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spelling Bee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36716F9823AA0A560013A28C /* Build configuration list for PBXProject "Spelling Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36716FC323AA0A570013A28C /* Debug */,
+				36716FC423AA0A570013A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36716FC523AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36716FC623AA0A570013A28C /* Debug */,
+				36716FC723AA0A570013A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36716FC823AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling BeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36716FC923AA0A570013A28C /* Debug */,
+				36716FCA23AA0A570013A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36716FCB23AA0A570013A28C /* Build configuration list for PBXNativeTarget "Spelling BeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36716FCC23AA0A570013A28C /* Debug */,
+				36716FCD23AA0A570013A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36716F9523AA0A560013A28C /* Project object */;
+}
